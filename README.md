@@ -1,8 +1,8 @@
-[![TEEZ.LO Screenshot](https://github.com/mohammadoftadeh/repo-assets/blob/main/TEEZ.LO-cover.png?raw=true)](https://next-ecommerce-TEEZ.LO.vercel.app/)
+[![Fashion Ecommerce Screenshot](public/Fashion%20Ecommerce.png)](https://fashion-ecommerce-gilt.vercel.app/)
 
-# TEEZ.LO - Next.js E-commerce Application
+# Fashion Ecommerce - Next.js E-commerce Application
 
-TEEZ.LO is an open-source, modern e-commerce front-end application built with **Next.js 14 App Router**, **TypeScript**, **Tailwind CSS**, **Redux Toolkit**, **Framer Motion**, and **ShadCN UI**. This project converts a Figma design into a fully responsive, production-ready application following industry best practices for performance, SEO, and accessibility.
+Fashion Ecommerce is an open-source, modern e-commerce front-end application built with **Next.js 14 App Router**, **TypeScript**, **Tailwind CSS**, **Redux Toolkit**, **Framer Motion**, and **ShadCN UI**. This project converts a Figma design into a fully responsive, production-ready application following industry best practices for performance, SEO, and accessibility.
 
 ## Table of Contents
 
@@ -29,7 +29,7 @@ TEEZ.LO is an open-source, modern e-commerce front-end application built with **
 
 ## Overview
 
-TEEZ.LO is a comprehensive e-commerce solution that demonstrates modern web development practices. The project showcases:
+Fashion Ecommerce is a comprehensive e-commerce solution that demonstrates modern web development practices. The project showcases:
 
 - **Design-to-Code Implementation**: Converting Figma designs to production-ready React components
 - **Modern Architecture**: Using Next.js 14 App Router with TypeScript for type safety
@@ -40,7 +40,7 @@ TEEZ.LO is a comprehensive e-commerce solution that demonstrates modern web deve
 
 ## Demo
 
-🚀 **Live Demo**: [https://next-ecommerce-TEEZ.LO.vercel.app/](https://next-ecommerce-TEEZ.LO.vercel.app/)
+🚀 **Live Demo**: [https://fashion-ecommerce-gilt.vercel.app/](https://fashion-ecommerce-gilt.vercel.app/)
 
 ## Features
 
@@ -92,8 +92,8 @@ TEEZ.LO is a comprehensive e-commerce solution that demonstrates modern web deve
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/mohammadoftadeh/next-ecommerce-TEEZ.LO.git
-   cd next-ecommerce-TEEZ.LO
+   git clone https://github.com/NafisRayan/Fashion-Ecommerce.git
+   cd Fashion-Ecommerce
    ```
 
 2. **Install dependencies:**
@@ -192,7 +192,7 @@ src/
 ## Project Structure
 
 ```
-TEEZ.LO/
+Fashion Ecommerce/
 ├── public/                     # Static assets
 │   ├── icons/                 # SVG icons
 │   └── images/                # Product images
@@ -504,7 +504,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://opens
 ```
 MIT License
 
-Copyright (c) 2024 Mohammad Oftadeh
+Copyright (c) 2024 Nafis Rayan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -519,10 +519,10 @@ copies or substantial portions of the Software.
 
 ## Contact
 
-**Mohammad Oftadeh**
-- 📧 Email: [mr.mohammadoftadeh@gmail.com](mailto:mr.mohammadoftadeh@gmail.com)
-- 🐙 GitHub: [https://github.com/mohammadoftadeh](https://github.com/mohammadoftadeh)
-- 🌐 Website: [Portfolio](https://mohammadoftadeh.dev)
+**Nafis Rayan**
+- 📧 Email: [nafisrayan123@gmail.com](mailto:nafisrayan123@gmail.com)
+- 🐙 GitHub: [https://github.com/NafisRayan](https://github.com/NafisRayan)
+- 🌐 Website: [Portfolio](https://nafisrayan.vercel.app)
 
 ---
 

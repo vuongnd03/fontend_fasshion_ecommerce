@@ -2,6 +2,7 @@
   "name": "next-ecommerce-TEEZ.LO",
   "version": "0.1.0",
   "private": true,
+  "author": "Nafis Rayan",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
