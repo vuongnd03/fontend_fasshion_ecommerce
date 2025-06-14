@@ -1,8 +1,8 @@
-[![Shopco Screenshot](https://github.com/mohammadoftadeh/repo-assets/blob/main/shopco-cover.png?raw=true)](https://next-ecommerce-shopco.vercel.app/)
+[![TEEZ.LO Screenshot](https://github.com/mohammadoftadeh/repo-assets/blob/main/TEEZ.LO-cover.png?raw=true)](https://next-ecommerce-TEEZ.LO.vercel.app/)
 
-# Shopco - Next.js E-commerce Application
+# TEEZ.LO - Next.js E-commerce Application
 
-Shopco is an open-source, modern e-commerce front-end application built with **Next.js 14 App Router**, **TypeScript**, **Tailwind CSS**, **Redux Toolkit**, **Framer Motion**, and **ShadCN UI**. This project converts a Figma design into a fully responsive, production-ready application following industry best practices for performance, SEO, and accessibility.
+TEEZ.LO is an open-source, modern e-commerce front-end application built with **Next.js 14 App Router**, **TypeScript**, **Tailwind CSS**, **Redux Toolkit**, **Framer Motion**, and **ShadCN UI**. This project converts a Figma design into a fully responsive, production-ready application following industry best practices for performance, SEO, and accessibility.
 
 ## Table of Contents
 
@@ -29,7 +29,7 @@ Shopco is an open-source, modern e-commerce front-end application built with **N
 
 ## Overview
 
-Shopco is a comprehensive e-commerce solution that demonstrates modern web development practices. The project showcases:
+TEEZ.LO is a comprehensive e-commerce solution that demonstrates modern web development practices. The project showcases:
 
 - **Design-to-Code Implementation**: Converting Figma designs to production-ready React components
 - **Modern Architecture**: Using Next.js 14 App Router with TypeScript for type safety
@@ -40,7 +40,7 @@ Shopco is a comprehensive e-commerce solution that demonstrates modern web devel
 
 ## Demo
 
-🚀 **Live Demo**: [https://next-ecommerce-shopco.vercel.app/](https://next-ecommerce-shopco.vercel.app/)
+🚀 **Live Demo**: [https://next-ecommerce-TEEZ.LO.vercel.app/](https://next-ecommerce-TEEZ.LO.vercel.app/)
 
 ## Features
 
@@ -92,8 +92,8 @@ Shopco is a comprehensive e-commerce solution that demonstrates modern web devel
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/mohammadoftadeh/next-ecommerce-shopco.git
-   cd next-ecommerce-shopco
+   git clone https://github.com/mohammadoftadeh/next-ecommerce-TEEZ.LO.git
+   cd next-ecommerce-TEEZ.LO
    ```
 
 2. **Install dependencies:**
@@ -192,7 +192,7 @@ src/
 ## Project Structure
 
 ```
-Shopco/
+TEEZ.LO/
 ├── public/                     # Static assets
 │   ├── icons/                 # SVG icons
 │   └── images/                # Product images
