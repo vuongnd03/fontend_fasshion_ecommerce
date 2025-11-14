@@ -2,7 +2,7 @@
 
 # Fashion Ecommerce - Next.js E-commerce Application
 
-Fashion Ecommerce is an open-source, modern e-commerce front-end application built with **Next.js 14 App Router**, **TypeScript**, **Tailwind CSS**, **Redux Toolkit**, **Framer Motion**, and **ShadCN UI**. This project converts a Figma design into a fully responsive, production-ready application following industry best practices for performance, SEO, and accessibility.
+Fashion Ecommerce is an open-source, modern e-commerce front-end application built with **React.jsx**,**module.css**, **Redux Toolkit**, **Framer Motion**, and **ShadCN UI**. This project converts a Figma design into a fully responsive, production-ready application following industry best practices for performance, SEO, and accessibility.
 
 ## Table of Contents
 
@@ -27,18 +27,6 @@ Fashion Ecommerce is an open-source, modern e-commerce front-end application bui
 - [License](#license)
 - [Contact](#contact)
 
-## Overview
-
-Fashion Ecommerce is a comprehensive e-commerce solution that demonstrates modern web development practices. The project showcases:
-
-- **Design-to-Code Implementation**: Converting Figma designs to production-ready React components
-- **Modern Architecture**: Using Next.js 14 App Router with TypeScript for type safety
-- **State Management**: Redux Toolkit for managing shopping cart and application state
-- **Performance**: Optimized for Core Web Vitals and user experience
-- **Accessibility**: WCAG 2.1 compliant components and navigation
-- **Responsive Design**: Mobile-first approach with Tailwind CSS
-
-## Demo
 
 🚀 **Live Demo**: [https://fashion-ecommerce-gilt.vercel.app/](https://fashion-ecommerce-gilt.vercel.app/)
 
@@ -172,9 +160,9 @@ The development server includes HMR for instant feedback:
 
 ```
 src/
-├── app/                    # Next.js App Router
-│   ├── layout.tsx         # Root layout
-│   ├── page.tsx           # Home page
+├── app/                    # React.jsx App Router
+│   ├── layout.jsx         # Root layout
+│   ├── page.jsx           # Home page
 │   ├── cart/              # Cart pages
 │   └── shop/              # Product pages
 ├── components/            # React components
@@ -185,7 +173,7 @@ src/
 ├── lib/                   # Utilities and configuration
 │   ├── features/         # Redux slices
 │   ├── hooks/            # Custom hooks
-│   └── utils.ts          # Helper functions
+│   └── utils.sts          # Helper functions
 └── styles/               # Global styles and fonts
 ```
 
@@ -198,19 +186,19 @@ Fashion Ecommerce/
 │   └── images/                # Product images
 ├── src/
 │   ├── app/                   # Next.js App Router
-│   │   ├── layout.tsx         # Root layout with providers
-│   │   ├── page.tsx           # Homepage
+│   │   ├── layout.jsx         # Root layout with providers
+│   │   ├── page.jsx           # Homepage
 │   │   ├── cart/              # Shopping cart pages
 │   │   ├── shop/              # Product catalog
 │   │   └── .well-known/       # Chrome DevTools config
 │   ├── components/
 │   │   ├── ui/               # ShadCN UI components
-│   │   │   ├── button.tsx    # Button component
-│   │   │   ├── input.tsx     # Input component
+│   │   │   ├── button.jsx    # Button component
+│   │   │   ├── input.jsx     # Input component
 │   │   │   └── ...           # Other UI components
 │   │   ├── common/           # Shared components
-│   │   │   ├── ProductCard.tsx
-│   │   │   └── ReviewCard.tsx
+│   │   │   ├── ProductCard.jsx
+│   │   │   └── ReviewCard.jsx
 │   │   ├── layout/           # Layout components
 │   │   │   ├── Navbar/       # Navigation
 │   │   │   └── Footer/       # Footer
@@ -230,7 +218,7 @@ Fashion Ecommerce/
 │   │   └── fonts/            # Custom font files
 │   └── types/                # TypeScript type definitions
 ├── components.json            # ShadCN UI configuration
-├── next.config.mjs           # Next.js configuration
+├── next.config.mjs           # React.jsx configuration
 ├── tailwind.config.ts        # Tailwind CSS configuration
 ├── tsconfig.json             # TypeScript configuration
 └── package.json              # Dependencies and scripts
@@ -400,7 +388,7 @@ npm run dev -- -p 3001
 
 **3. Build Errors**
 ```bash
-# Clear Next.js cache
+# Clear React.jsx cache
 rm -rf .next
 
 # Reinstall dependencies
@@ -417,124 +405,9 @@ npx tsc --noEmit
 npm run lint --fix
 ```
 
-### Development Tips
-
-1. **Hot Reload Issues**: Restart the dev server
-2. **CSS Not Updating**: Check Tailwind CSS configuration
-3. **Redux DevTools**: Install browser extension for debugging
-4. **Performance**: Use Next.js built-in analytics
-
-## Contributing
-
-We welcome contributions! Please follow these guidelines:
-
-### Getting Started
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Make your changes
-4. Add tests if applicable
-5. Commit your changes: `git commit -m 'Add amazing feature'`
-6. Push to the branch: `git push origin feature/amazing-feature`
-7. Open a Pull Request
-
-### Code Standards
-- Use TypeScript for all new code
-- Follow the existing code style
-- Add JSDoc comments for functions
-- Update tests and documentation
-
-### Pull Request Template
-```markdown
-## Description
-Brief description of changes
-
-## Type of Change
-- [ ] Bug fix
-- [ ] New feature
-- [ ] Breaking change
-- [ ] Documentation update
-
-## Testing
-- [ ] Tests pass locally
-- [ ] Added new tests
-- [ ] Updated existing tests
-
-## Screenshots
-Add screenshots for UI changes
-```
-
-## Issues
-
-### Reporting Bugs
-When reporting bugs, please include:
-- Browser and version
-- Steps to reproduce
-- Expected behavior
-- Actual behavior
-- Screenshots if applicable
-
-### Feature Requests
-- Describe the feature
-- Explain the use case
-- Provide examples if possible
-
-## Roadmap
-
-### Upcoming Features
-- [ ] User authentication
-- [ ] Payment integration
-- [ ] Wishlist functionality
-- [ ] Product recommendations
-- [ ] Admin dashboard
-- [ ] Multi-language support
-- [ ] Dark mode theme
-- [ ] Progressive Web App (PWA)
-
-### Technical Improvements
-- [ ] Unit test coverage
-- [ ] E2E test suite
-- [ ] Performance monitoring
-- [ ] Error tracking
-- [ ] Analytics integration
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) file for details.
 
-```
-MIT License
 
-Copyright (c) 2024 Nafis Rayan
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-```
-
-## Contact
-
-**Nafis Rayan**
-- 📧 Email: [nafisrayan123@gmail.com](mailto:nafisrayan123@gmail.com)
-- 🐙 GitHub: [https://github.com/NafisRayan](https://github.com/NafisRayan)
-- 🌐 Website: [Portfolio](https://nafisrayan.vercel.app)
-
----
-
-## Acknowledgments
-
-- **Design Credit**: [Hamza Naeem](https://www.figma.com/@hamzauix) for the original Figma design
-- **Figma File**: [E-commerce Website Template](https://www.figma.com/community/file/1273571982885059508/e-commerce-website-template-freebie)
-- **Community**: Thanks to all contributors and users
-
----
-
-**⭐ If you found this project helpful, please give it a star!**
-
-**🚀 Ready to build something amazing? Fork this repository and start coding!**
-"# fontend_fasshion_ecommerce" 
