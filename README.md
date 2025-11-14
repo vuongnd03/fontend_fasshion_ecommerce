@@ -1,6 +1,6 @@
 [![Fashion Ecommerce Screenshot](public/Fashion%20Ecommerce.png)](https://fashion-ecommerce-gilt.vercel.app/)
 
-# Fashion Ecommerce - Next.js E-commerce Application
+# Fashion Ecommerce - React.jsx E-commerce Application
 
 Fashion Ecommerce is an open-source, modern e-commerce front-end application built with **React.jsx**,**module.css**, **Redux Toolkit**, **Framer Motion**, and **ShadCN UI**. This project converts a Figma design into a fully responsive, production-ready application following industry best practices for performance, SEO, and accessibility.
 
@@ -51,18 +51,7 @@ Fashion Ecommerce is an open-source, modern e-commerce front-end application bui
 - ✅ **Hot Module Replacement**: Fast development workflow
 - ✅ **Code Splitting**: Optimized bundle sizes
 
-## Technologies
 
-| Category | Technology | Version | Purpose |
-|----------|------------|---------|---------|
-| **Framework** | Next.js | 14.2.30 | React framework with SSR/SSG |
-| **Language** | TypeScript | 5.x | Type-safe JavaScript |
-| **Styling** | Tailwind CSS | 3.4.1 | Utility-first CSS framework |
-| **State Management** | Redux Toolkit | 2.2.7 | Predictable state container |
-| **UI Library** | ShadCN UI | Latest | Accessible component library |
-| **Animations** | Framer Motion | 11.5.4 | Motion library for React |
-| **Icons** | Lucide React | 0.438.0 | Beautiful icon library |
-| **Build Tool** | Webpack | Built-in | Module bundler |
 
 ### Development Dependencies
 - **ESLint**: Code linting and formatting
