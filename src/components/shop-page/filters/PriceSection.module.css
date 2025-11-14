@@ -1,0 +1,25 @@
+.accordionItem {
+  border: none;
+}
+
+.trigger {
+  color: #000;
+  font-weight: bold;
+  font-size: 1.25rem;
+  padding: 0;
+  padding-top: 2px;
+}
+
+.trigger:hover {
+  text-decoration: none;
+}
+
+.content {
+  padding-top: 16px;
+  overflow: visible;
+}
+
+.spacer {
+  margin-bottom: 12px;
+}
+

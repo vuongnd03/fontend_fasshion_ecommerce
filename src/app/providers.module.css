@@ -1,0 +1,13 @@
+.loadingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 384px;
+}
+
+.spinner {
+  width: 40px;
+  border: 2px solid #d1d5db;
+  border-right-color: #4b5563;
+}
+

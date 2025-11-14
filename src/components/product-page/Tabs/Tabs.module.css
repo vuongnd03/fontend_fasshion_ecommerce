@@ -1,0 +1,47 @@
+.tabButtons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  overflow-x: auto;
+}
+
+@media (min-width: 640px) {
+  .tabButtons {
+    margin-bottom: 32px;
+  }
+}
+
+.tabButton {
+  padding: 20px 24px;
+  border-radius: 0;
+  flex: 1;
+}
+
+@media (min-width: 640px) {
+  .tabButton {
+    padding: 24px;
+  }
+}
+
+.activeTab {
+  border-bottom: 2px solid #000;
+  border-color: #000;
+  font-weight: 500;
+}
+
+.inactiveTab {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: normal;
+}
+
+.content {
+  margin-bottom: 48px;
+}
+
+@media (min-width: 640px) {
+  .content {
+    margin-bottom: 64px;
+  }
+}
+

@@ -1,0 +1,132 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  aspect-ratio: auto;
+  text-decoration: none;
+  color: inherit;
+}
+
+.imageContainer {
+  background-color: #F0EEED;
+  border-radius: 13px;
+  width: 100%;
+  max-width: 295px;
+  aspect-ratio: 1;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+@media (min-width: 1024px) {
+  .imageContainer {
+    border-radius: 20px;
+    margin-bottom: 16px;
+  }
+}
+
+.image {
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.5s;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+
+.title {
+  color: #000;
+  font-size: 1rem;
+}
+
+@media (min-width: 1280px) {
+  .title {
+    font-size: 1.25rem;
+  }
+}
+
+.ratingContainer {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 4px;
+}
+
+@media (min-width: 1280px) {
+  .ratingContainer {
+    margin-bottom: 8px;
+  }
+}
+
+.ratingText {
+  color: #000;
+  font-size: 0.75rem;
+  margin-left: 11px;
+  padding-bottom: 2px;
+}
+
+@media (min-width: 1280px) {
+  .ratingText {
+    font-size: 0.875rem;
+    margin-left: 13px;
+    padding-bottom: 0;
+  }
+}
+
+.ratingSlash {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.priceContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@media (min-width: 1280px) {
+  .priceContainer {
+    gap: 10px;
+  }
+}
+
+.price {
+  font-weight: bold;
+  color: #000;
+  font-size: 1.25rem;
+}
+
+@media (min-width: 1280px) {
+  .price {
+    font-size: 1.5rem;
+  }
+}
+
+.originalPrice {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.4);
+  text-decoration: line-through;
+  font-size: 1.25rem;
+}
+
+@media (min-width: 1280px) {
+  .originalPrice {
+    font-size: 1.5rem;
+  }
+}
+
+.discountBadge {
+  font-weight: 500;
+  font-size: 10px;
+  padding: 6px 14px;
+  border-radius: 9999px;
+  background-color: rgba(255, 51, 51, 0.1);
+  color: #FF3333;
+}
+
+@media (min-width: 1280px) {
+  .discountBadge {
+    font-size: 0.75rem;
+  }
+}
+

@@ -1,0 +1,16 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  text-decoration: none;
+  color: inherit;
+}
+

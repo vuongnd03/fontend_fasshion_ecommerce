@@ -1,0 +1,40 @@
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.label {
+  font-size: 0.875rem;
+  padding: 12px 0;
+  width: 100%;
+  line-height: 1.75rem;
+  padding-right: 8px;
+  color: #737373;
+}
+
+@media (min-width: 1024px) {
+  .label {
+    padding: 16px 0;
+  }
+}
+
+.valueContainer {
+  grid-column: span 2;
+  padding: 12px 0;
+  border-bottom: 1px solid;
+}
+
+@media (min-width: 1024px) {
+  .valueContainer {
+    padding: 16px 0;
+  }
+}
+
+.value {
+  font-size: 0.875rem;
+  width: 100%;
+  line-height: 1.75rem;
+  color: #262626;
+  font-weight: 500;
+}
+

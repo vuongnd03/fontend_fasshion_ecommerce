@@ -1,0 +1,191 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.imageLink {
+  background-color: #F0EEED;
+  border-radius: 8px;
+  width: 100%;
+  min-width: 100px;
+  max-width: 100px;
+  aspect-ratio: 1;
+  overflow: hidden;
+  text-decoration: none;
+  display: block;
+}
+
+@media (min-width: 640px) {
+  .imageLink {
+    max-width: 124px;
+  }
+}
+
+.image {
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-self: stretch;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+  color: #000;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+@media (min-width: 1280px) {
+  .name {
+    font-size: 1.25rem;
+  }
+}
+
+.deleteButton {
+  height: 20px;
+  width: 20px;
+}
+
+@media (min-width: 768px) {
+  .deleteButton {
+    height: 36px;
+    width: 36px;
+  }
+}
+
+.deleteIcon {
+  font-size: 1.25rem;
+  color: #dc2626;
+}
+
+@media (min-width: 768px) {
+  .deleteIcon {
+    font-size: 1.5rem;
+  }
+}
+
+.attribute {
+  margin-top: -4px;
+}
+
+.attributeLabel {
+  color: #000;
+  font-size: 0.75rem;
+  margin-right: 4px;
+}
+
+@media (min-width: 768px) {
+  .attributeLabel {
+    font-size: 0.875rem;
+  }
+}
+
+.attributeValue {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .attributeValue {
+    font-size: 0.875rem;
+  }
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.priceContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@media (min-width: 1280px) {
+  .priceContainer {
+    gap: 10px;
+  }
+}
+
+.price {
+  font-weight: bold;
+  color: #000;
+  font-size: 1.25rem;
+}
+
+@media (min-width: 1280px) {
+  .price {
+    font-size: 1.5rem;
+  }
+}
+
+.originalPrice {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.4);
+  text-decoration: line-through;
+  font-size: 1.25rem;
+}
+
+@media (min-width: 1280px) {
+  .originalPrice {
+    font-size: 1.5rem;
+  }
+}
+
+.discountBadge {
+  font-weight: 500;
+  font-size: 10px;
+  padding: 6px 14px;
+  border-radius: 9999px;
+  background-color: rgba(255, 51, 51, 0.1);
+  color: #FF3333;
+}
+
+@media (min-width: 1280px) {
+  .discountBadge {
+    font-size: 0.75rem;
+  }
+}
+
+.counter {
+  padding: 12px 20px;
+  max-height: 32px;
+  min-width: 105px;
+  max-width: 105px;
+}
+
+@media (min-width: 640px) {
+  .counter {
+    max-width: 128px;
+  }
+}
+
+@media (min-width: 768px) {
+  .counter {
+    max-height: 40px;
+  }
+}
+

@@ -1,0 +1,47 @@
+.accordionItem {
+  border: none;
+}
+
+.trigger {
+  color: #000;
+  font-weight: bold;
+  font-size: 1.25rem;
+  padding: 0;
+  padding-top: 2px;
+}
+
+.trigger:hover {
+  text-decoration: none;
+}
+
+.content {
+  padding-top: 16px;
+  padding-bottom: 0;
+}
+
+.sizes {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sizeButton {
+  background-color: #F0F0F0;
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 0.875rem;
+  border-radius: 9999px;
+  max-height: 39px;
+  border: none;
+  cursor: pointer;
+}
+
+.sizeButtonActive {
+  background-color: #000;
+  font-weight: 500;
+  color: #fff;
+}
+

@@ -1,0 +1,66 @@
+.trigger {
+  cursor: pointer;
+}
+
+.menuIcon {
+  max-width: 22px;
+  max-height: 22px;
+}
+
+.content {
+  overflow-y: auto;
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.menuItem {
+  margin-bottom: 16px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.menuListContainer {
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.accordionItem {
+  border: none;
+}
+
+.accordionTrigger {
+  text-align: left;
+  padding: 0;
+  padding-top: 2px;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.accordionContent {
+  padding: 16px;
+  padding-bottom: 0;
+  border-left: 1px solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.childLink {
+  width: fit-content;
+  padding: 8px 0;
+  font-size: 1rem;
+}
+

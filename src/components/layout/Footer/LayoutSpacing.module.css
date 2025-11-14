@@ -1,0 +1,10 @@
+.spacing {
+  margin-bottom: 80px;
+}
+
+@media (min-width: 768px) {
+  .spacing {
+    margin-bottom: 0;
+  }
+}
+

@@ -1,0 +1,278 @@
+.header {
+  background-color: #F2F0F1;
+  padding-top: 40px;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding-top: 96px;
+  }
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.contentSection {
+  max-width: 1240px;
+  padding: 0 16px;
+}
+
+.title {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1024px) {
+  .title {
+    font-size: 64px;
+    line-height: 64px;
+    margin-bottom: 32px;
+  }
+}
+
+.description {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 0.875rem;
+  margin-bottom: 24px;
+  max-width: 545px;
+}
+
+@media (min-width: 1024px) {
+  .description {
+    font-size: 1rem;
+    margin-bottom: 32px;
+  }
+}
+
+.shopButton {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 16px 56px;
+  border-radius: 9999px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  transition: all 0.3s;
+}
+
+.shopButton:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@media (min-width: 768px) {
+  .shopButton {
+    width: 208px;
+    margin-bottom: 48px;
+  }
+}
+
+.statsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+
+@media (min-width: 640px) {
+  .statsContainer {
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width: 768px) {
+  .statsContainer {
+    height: 100%;
+    max-height: 44px;
+    justify-content: flex-start;
+    gap: 12px;
+    margin-bottom: 116px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .statsContainer {
+    max-height: 52px;
+    gap: 24px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .statsContainer {
+    max-height: 68px;
+    gap: 32px;
+  }
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.statNumber {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .statNumber {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .statNumber {
+    font-size: 1.875rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .statNumber {
+    font-size: 40px;
+    margin-bottom: 8px;
+  }
+}
+
+.statLabel {
+  font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.6);
+  white-space: nowrap;
+}
+
+@media (min-width: 1280px) {
+  .statLabel {
+    font-size: 1rem;
+  }
+}
+
+.separator {
+  margin-left: 24px;
+  height: 48px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  .separator {
+    margin-left: 0;
+    height: 100%;
+  }
+}
+
+.separatorHidden {
+  display: none;
+  height: 48px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-left: 24px;
+}
+
+@media (min-width: 640px) {
+  .separatorHidden {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .separatorHidden {
+    margin-left: 0;
+    height: 100%;
+  }
+}
+
+.imageSection {
+  position: relative;
+  min-height: 448px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-image: url('/images/header-res-homepage.png');
+}
+
+@media (min-width: 768px) {
+  .imageSection {
+    padding: 0 16px;
+    min-height: 428px;
+    background-image: url('/images/header-homepage.png');
+  }
+}
+
+@media (min-width: 1280px) {
+  .imageSection {
+    background-position: center top -1.6rem;
+  }
+}
+
+.bigStar {
+  position: absolute;
+  right: 28px;
+  top: 48px;
+  max-width: 76px;
+  max-height: 76px;
+  animation: spin 4s infinite linear;
+}
+
+@media (min-width: 1024px) {
+  .bigStar {
+    max-width: 96px;
+    max-height: 96px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .bigStar {
+    right: 0;
+    max-width: 104px;
+    max-height: 104px;
+  }
+}
+
+.smallStar {
+  position: absolute;
+  left: 28px;
+  top: 144px;
+  max-width: 44px;
+  max-height: 44px;
+  animation: spin 3s infinite linear;
+}
+
+@media (min-width: 640px) {
+  .smallStar {
+    top: 256px;
+  }
+}
+
+@media (min-width: 768px) {
+  .smallStar {
+    left: 0;
+    top: 176px;
+    max-width: 56px;
+    max-height: 56px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .smallStar {
+    top: 224px;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+

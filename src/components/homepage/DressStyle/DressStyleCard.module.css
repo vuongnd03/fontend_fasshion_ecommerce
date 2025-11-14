@@ -1,0 +1,25 @@
+.card {
+  width: 100%;
+  border-radius: 20px;
+  background-color: #fff;
+  background-position: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+  padding: 16px 24px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: flex-end;
+}
+
+@media (min-width: 768px) {
+  .card {
+    height: 100%;
+    font-size: 2.25rem;
+    padding: 25px 36px;
+  }
+}
+

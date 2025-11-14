@@ -1,0 +1,10 @@
+.breadcrumb {
+  margin-bottom: 8px;
+}
+
+@media (min-width: 640px) {
+  .breadcrumb {
+    margin-bottom: 24px;
+  }
+}
+

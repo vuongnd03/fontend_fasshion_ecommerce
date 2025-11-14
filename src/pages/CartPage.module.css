@@ -1,0 +1,247 @@
+.main {
+  padding-bottom: 80px;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+@media (min-width: 1280px) {
+  .container {
+    padding: 0;
+  }
+}
+
+.title {
+  font-weight: bold;
+  font-size: 32px;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 40px;
+    margin-bottom: 24px;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 1024px) {
+  .content {
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
+.cartItems {
+  width: 100%;
+  padding: 14px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  .cartItems {
+    padding: 24px;
+    gap: 24px;
+  }
+}
+
+.summary {
+  width: 100%;
+  max-width: 505px;
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  .summary {
+    padding: 24px;
+    gap: 24px;
+  }
+}
+
+.summaryTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #000;
+}
+
+@media (min-width: 768px) {
+  .summaryTitle {
+    font-size: 1.5rem;
+  }
+}
+
+.summaryContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.summaryRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.summaryLabel {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+@media (min-width: 768px) {
+  .summaryLabel {
+    font-size: 1.25rem;
+  }
+}
+
+.summaryValue {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .summaryValue {
+    font-size: 1.25rem;
+  }
+}
+
+.discountValue {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #dc2626;
+}
+
+@media (min-width: 768px) {
+  .discountValue {
+    font-size: 1.25rem;
+  }
+}
+
+.divider {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 0;
+}
+
+.totalLabel {
+  font-size: 1rem;
+  color: #000;
+}
+
+@media (min-width: 768px) {
+  .totalLabel {
+    font-size: 1.25rem;
+  }
+}
+
+.totalValue {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .totalValue {
+    font-size: 1.5rem;
+  }
+}
+
+.promoSection {
+  display: flex;
+  gap: 12px;
+}
+
+.inputGroup {
+  background-color: #F0F0F0;
+}
+
+.input {
+  background-color: transparent;
+}
+
+.input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.offerIcon {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 1.5rem;
+}
+
+.applyButton {
+  background-color: #000;
+  border-radius: 9999px;
+  width: 100%;
+  max-width: 119px;
+  height: 48px;
+}
+
+.checkoutButton {
+  font-size: 0.875rem;
+  font-weight: 500;
+  background-color: #000;
+  border-radius: 9999px;
+  width: 100%;
+  padding: 16px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+@media (min-width: 768px) {
+  .checkoutButton {
+    font-size: 1rem;
+    height: 60px;
+  }
+}
+
+.arrowIcon {
+  font-size: 1.25rem;
+  margin-left: 8px;
+  transition: transform 0.3s;
+}
+
+.checkoutButton:hover .arrowIcon {
+  transform: translateX(4px);
+}
+
+.emptyCart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #d1d5db;
+  margin-top: 128px;
+}
+
+.emptyIcon {
+  font-size: 3.75rem;
+}
+
+.emptyText {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.shopButton {
+  border-radius: 9999px;
+  width: 96px;
+}
+
