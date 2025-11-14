@@ -1,4 +1,3 @@
-[![Fashion Ecommerce Screenshot](public/Fashion%20Ecommerce.png)](https://fashion-ecommerce-gilt.vercel.app/)
 
 # Fashion Ecommerce - React.jsx E-commerce Application
 
